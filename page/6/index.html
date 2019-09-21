@@ -21,17 +21,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 
-<script>
-	(function(){
-		if(''){
-			if (prompt('请输入文章密码','') !== ''){
-				alert('密码错误！');
-				history.back();
-			}
-		}
-	})();
-</script>
-
 
 
 
@@ -83,9 +72,9 @@
     root: '/',
     scheme: 'Mist',
     version: '7.1.1',
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":true,"dimmer":false},
     back2top: true,
-    back2top_sidebar: false,
+    back2top_sidebar: true,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -667,6 +656,11 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -743,11 +737,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
