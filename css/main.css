@@ -1749,7 +1749,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #06d41c;
+  background: #f146ff;
 }
 .feed-link,
 .chat {
@@ -2437,7 +2437,7 @@ hr {
 .use-motion .logo-line-after i {
   right: -100%;
 }
-.site-subtitle {
+#.site-subtitle {
   display: none;
 }
 .site-brand-wrapper {
